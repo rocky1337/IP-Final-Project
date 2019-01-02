@@ -1,0 +1,16 @@
+extends template
+
+block style
+	style.
+		#minutes {
+			font-size: 20em;
+		}
+block body_extra
+	h1 When should you eat again?  Find out below!
+	img(id="patrick" src="./images/patrick.gif")
+	img(id="bobby" src="./images/bobby.gif")
+	img(id="pan" src="./images/pan.gif")
+	div
+		span(id="minutes") #{number}
+			span(id="word")  minutes!
+	

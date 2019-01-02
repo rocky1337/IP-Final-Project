@@ -1,0 +1,54 @@
+#title {
+  color: #cc3300;
+  font-family: Comic sans-serif;
+  font-size: 10em;
+  text-align: center;
+}
+
+body {
+  background-image: url("../images/food.png");
+}
+
+#title:hover {
+  color: brown;
+}
+
+#title {
+  margin-bottom: auto;
+}
+
+#taco {
+  padding-left: 5%
+}
+
+#login {
+  font-size: 2em;
+  text-align: center;
+  font-family: fantasy;
+}
+
+#burger {
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
+.description {
+  text-align: center;
+  font-family: cursive;
+  color: red;
+  margin-top: 0%;
+  padding-bottom: 0%;
+}
+
+#chicken {
+  padding-left: 40%;
+}
+
+.terms {
+  font-size: 2%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
